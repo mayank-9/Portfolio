@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/9fc545c71b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="container" data-aos="zoom-in">
+            <nav>
+                <ul id="sidemenu">
+                    <li> <a href="#header"> <i class="fa-solid fa-house"></i> Home</a></li>
+                    <li> <a href="#about"> <i class="fa-regular fa-user"></i> About </a></li>
+                    <li><a href="#experiences"> <i class="fa-solid fa-laptop-file"></i> Experiences </a> </li>
+                    <li> <a href="#portfolio"> <i class="fa-solid fa-file"></i> Portfolio</a> </li>   
+                    <li><a href="#contact"><i class="fa-sharp fa-solid fa-phone-flip"></i> Contact </a> </li>
+                    <!-- for the responsive part  -->
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+           </div>
+   
+<!-- -------------------------------- HEADER INTRO----------------------------------------->
+    <div class="header-text"  data-aos="zoom-in">
+        <p> <span> Tech Geek </span>   And  <span> Explorer </span> </p>
+        <h1> <span> Mayank Gangwar </span> </h1>
+    </div>
+    <!-- //////////////////// ABOUT ME ////////////////////////// -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" data-aos="zoom-in">
+                <!-- ADD IMAGE -->
+                <!-- <img src="me.jpeg" alt="image3" height="698px" width="1500px"> -->
+                <div class="card">
+                    <div class="card-inner">
+                      <div class="front-face">
+               <img src="WhatsApp Image 2023-07-11 at 03.52.19.jpg" height="698px" width="1501px" >   
+                      </div>
+                      <div class="back-face">
+                        <h2>Mayank Gangwar</h2>
+                        <br>
+                        <p> Learner,Developer,Believer</p>
+                        <br>
+                        <div class="media">
+                        <a href="https://leetcode.com/mayan-k7/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://trailblazer.me/id/mayan-k07" target="_blank"><i class="fa-solid fa-cloud"></i></a>  
+                        <a href="https://www.linkedin.com/in/mayan-k07/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+                        </div>
+                      </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="about-col-2" data-aos="zoom-in">
+                <h1 class="sub-title"> About  <span>Me </span> </h1>  <br>
+                <p class="para">A <span>Technology enthusiast</span> with knowledge of Python, Machine Learning,SQL and Web Developement .
+                    I have worked with Python libraries pandas numpy and sci-kit during <span> Machine Learning </span> 
+                     I have explored in HTML-CSS, React, JS during <span>Front-End Development</span> .
+                </p>
+                    <div class="tab-titles1">
+                        <p class="tab-links" onclick="opentab('skills')"> Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                        <p class="tab-links"  onclick="opentab('education')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span> Web Developer </span> <br> HTML+CSS <br> Bootstrap <br> React <br> Javascript  </li>
+                            <li> <span> Machine Learning </span> <br> Python  <br> Sci-Kit <br> Pandas <br> SQL  </li>
+                         
+                        </ul>
+                    
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span> Salesforce </span>  <br> <br> 
+                                <a href="https://trailblazer.me/id/mayan-k07" target="_blank"> 
+                                <i class="fa-brands fa-salesforce"></i> </a> Admin & Developer Super Set </li>
+                            <li> <span> Competitive Programming </span> <br> <br>
+                            <a href="https://leetcode.com/mayan-k7/" target="_blank"> <i class="fa-solid fa-code"></i></a> LeetCode Profile </li>
+                        </ul>
+                         
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span> 2020-2024 </span> <br> B.tech in CSE from SRM University - <span> 9.28 </span>  </li>
+                            <li> <span> 2019-2020 </span> <br> 12th from GRM School, Bareilly - <span> 72.8%</span> </li>
+                            <li> <span> 2017-2018 </span> <br> 10th from GRM School, Bareilly  - <span>80.5%</span> </li>
+
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+
+                    <!--------------------- 2nd Column----------------------------------------->
+                    <div class="tab-titles2">
+                        <p class="tab-links active-link" onclick="opentab('certificate')"> Certificates </p>
+                        <p class="tab-links" onclick="opentab('position')"> Position of Responsibility </p>
+                        <p class="tab-links"  onclick="opentab('others')"> Technical Subjects </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="certificate">
+                        <ul>
+                            <li> <span> Programming Language Certifications </span>  <br> <br>
+                                <a href="https://coursera.org/share/85d89351b918e50342e453ab388d14ae" target="_blank"> <i class="fa-brands fa-python"></i> </a> Databases and SQL for Data Science with Python <br> 
+                                <a href="https://coursera.org/share/9e079a95e5f967433b19926fef705fac" target="_blank"> <i class="fa-solid fa-certificate"></i> </a>Data Structures<br> 
+                                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS91S4330011710191558" target="_blank"> <i class="fa-solid fa-code"></i> </a>  DBMS with NPTEL Certification <br> 
+                                <a href="https://www.hackerrank.com/certificates/ed52333bc422" target="_blank"> <i class="fa-solid fa-laptop-code"></i> </a> IOT with NPTEL Certification <br> <br>
+                            <li> <span> Course & Training Completion Certificates</span> <br> <br> 
+                                <a href="https://coursera.org/share/be1195d24f9e3c7ba1c31e201aad48ad" target="_blank">
+                                     <i class="fa-brands fa-google"></i> </a> Google Cloud Digital Leader Training Professional Certificate   <br>
+                                <a href="https://smartinternz.com/internships/salesforce_certificates/1c3ca1827456a5d199bccb6d74777fc2" target="_blank"> 
+                                    <i class="fa-brands fa-salesforce"></i> </a> Salesforce Administrator Virtual Internship </li>
+                                
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="position">
+                        <ul>
+                            <li> <span> Core Team Member - GeeksforGeeks   </span> <br> <br>  Geeksforgeeks Students' chapter at SRM is working on the idea - to impart knowledge among the geeks in a fun and exciting way. It will be achieved through events, hackathons and webinars to enlighten the mates. We aim for the perfection and success of all who are connected with us through this chapter.
+                                </li> 
+                            
+                                 <li> <span> Core Member - SPARTANS  </span> <br> <br>  
+                                  </li>
+                                  <li> <span> Core Member - ISTE </span> <br> <br>  I.S.T.E (Indian Society for Technical Education) is a national, professional, non-profit making, government aided society, started in 1941 as the "Association of Principals of Technical Education (A.P.T.I)".It has grown to become the only technical society which is government aided in SRM IST. 
+                                  </li>
+                               
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="others">
+                        <ul>
+                            <li> <span> Object-Oriented Programming </span> <br> Object-oriented programming aims to implement real-world entities like 
+                                inheritance, hiding, polymorphism, etc in programming.  </li>
+                            <li> <span> Operating Systems </span> <br> Understanding the services offered by an operating system, an interface between a computer user and computer hardware. </li>
+                            <li> <span> Database Mangement </span> <br> A database management system is a software tool that enables users to manage a database easily. It allows users to access
+                                 and interact with the underlying data in the database. </li>
+                            <li> <span> Computer Networks </span> <br> Computer networking refers to interconnected computing devices that can
+                                 exchange data and share resources with each other. </li> 
+                            
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div> 
+      <!-- --------------------------------- Services ----------------------------------- -->
+        <div id="services"  data-aos="zoom-in">
+            <h1 class="sub-title1" data-aos="zoom-in"> <span> My </span> Experiences </h1>
+            <div class="services-list">
+            <div data-tilt>
+                <i class="fa-brands fa-salesforce"></i>
+          <h2> Salesforce Administrator </h2>
+          <p>Salesforce Administrators work with stakeholders to define system requirements and customize the platform. Most importantly, they enable users to get the most out of Salesforce technology. A Salesforce Admin best understands how to make the platform work for their company's goals.
+            During the 8 Weeks period of Virtual Internship (April-May 2023), I completed the Administrator Superbadge. </p>
+        
+             </div>
+             <div data-tilt>
+                <i class="fa-solid fa-code"></i>
+                <h2> Data Analyst</h2>
+                <p>I worked as a Data Analyst from June 2023 - July 2023 in a project "Any Vision Camera Integration with SW Solution" associated with Sriyanka Infratech . The project aims for integrated E challan System fo Traffic Management Wing.
+
+                    My role was to categorise and gather data to create a dataset. I used numpy for image cropping and resizing and got to know about open cv as well. The internship helped me to brush up on concepts of ML/AI and tenserflow.</p>     
+            </div>
+            </div>
+        </div>
+            <!---------------------------- portfolio---------------------------------------->
+                <div class="work" data-aos="zoom-in">
+                    <h1>  <span> My </span>  Projects </h1>
+                </div>
+                <div id="portfolio" data-aos="fade-left">
+                    <div class="card">
+                        <div class="face face1">
+                         <div class="content">
+                            <a href="https://srm-1ff4b.web.app/" target="_blank"><img src="Screenshot 2023-07-11 035712.png" height="200px" width="300px"></a>
+                            <h3>DopeKart</h3>
+                         </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>It is an e-commerce website that is inspired from amazon's user interface 
+                                    but I have tried to add new and dope touch to it 
+                                    We can login or even make payment in it.
+                                    Firebase , React , Javascript and CSS was used to create it.</p>
+                                     <!-- add project link -->
+                            <a href="https://srm-1ff4b.web.app/" target="_blank"> <img src="https://i.ibb.co/jJpZNBQ/logo-removebg-preview.png"height="150px" width="150px" class="dope"> </a> 
+        
+                             </div>
+                           </div>
+                          </div>
+                          <div class="card">
+                            <div class="face face1">
+                             <div class="content">
+                                <img src="https://i.ytimg.com/vi/v-C2zV6939c/maxresdefault.jpg" height="200px" width="300px">
+                                <h3>Car Price Predictor</h3>
+                             </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <p>I was really obsessed about how Machine Learning algorithms work and how are the projects made in it.
+                                        So I created my first Machine Learning Project Car Price Predictor a web app for car price prediction using machine learning with deployment using streamlit. 
+                                    </p>
+                                <img src="https://i.pinimg.com/originals/a8/96/e7/a896e73429c7028d4dd5d0a5c53782ee.jpg"height="80px" width="80px" class="ml" >
+                                 </div>
+                            </div>
+                        </div>
+                </div>
+          </div>
+            
+            
+      
+        
+    <!-------------------------------contact --------------------------------------------->
+        <div id="contact" data-aos="zoom-in">
+            <div class="container">
+             <div class="row">
+                <div class="contact-left"> 
+                  <h1 class="sub-title2" data-aos-anchor-placement="top-center">Contact  <span>  Me </span></h1>
+                <p> <i class="fa-regular fa-envelope"></i> mgangwar182@gmail.com</p>
+                <p> <i class="fa-brands fa-whatsapp"> <a href="https://wa.me/+918630013330" target="_blank"> 8630013330 </a> </i> </p>
+                    
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mayan-k07/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                    <a href="https://trailblazer.me/id/mayan-k07" target="_blank"> <i class="fa-brands fa-salesforce"></i> </a>
+                    <a href="https://github.com/mayank-9" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                     
+                <a href="Resume.pdf" download class="btn btn1" target="_blank"> <br>
+                    Download Resume <br> <br> </a>
+                </div>
+            <div class="contact-right" data-aos="zoom-in"> </div>
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="openpopup()"> Submit </button>
+                
+                    <!-- for thank you msg pop up -->
+    
+                    <div class="popup" id="pop">
+                        <img src="tick.png">
+                        <h2> Thank You!</h2>
+                        <p>Your details have been successfully submitted.</p>
+                        <button type="button" onclick="closepopup()">OK</button>
+                    </div>
+                 </form>
+                 
+             </div>
+            </div>
+          </div>
+   
+    
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    // this function will help in removing the tabs on clicking in about me section
+    function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+<!--===========================FOR OPENING AND CLOSING OF MENU ================================ -->
+   <script>
+     var side=document.getElementById("sidemenu");
+     function openmenu(){ 
+        // it will make menu visible when ever the below value is 0
+         side.style.right="0";  
+     }
+     function closemenu(){ 
+        // it will make menu disappear when ever the below value is 0
+         side.style.right="-200px";  
+     }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxa4J0Dk2uGsKQhQ0dWF1bQOZdZKJajzZEJTI_w2bwAxJw3Wg8gRMZtwS7xGdcV4eOe/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    // for popup open & close function
+    let popup=document.getElementById("pop");
+    // to display the popup
+    function openpopup(){
+        //   we need to change the top, visibility & scale to make the popup visible
+        popup.classList.add("open-popup");
+    }
+    // to hide the popup
+    function closepopup(){
+        //   we need to change the top, visibility & scale to make the popup visible
+        popup.classList.remove("open-popup");
+    }
+  </script>
+  <script src="vanilla-tilt.js"></script>
+
+  <script>
+    var loader=document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+  </script>
+  <!-- for scroll effect -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration : 1000
+    });
+  </script>
+</body>
+</html>
